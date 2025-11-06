@@ -1,0 +1,131 @@
+
+
+/*==================== MARS ====================*/
+
+#mars {
+    width: 38px;
+    height: 38px;
+    margin: 55px;
+    z-index: 1000;
+    animation: spin-right 3s linear infinite;
+    -webkit-animation: spin-right 3s linear infinite;
+}
+
+#mars-orbit {
+    position: absolute;
+    width: 508px;
+    height: 508px;
+    bottom: -164px;
+    left: 50%;
+    margin-left: -254px;
+    border: 1px dotted white;
+    border-radius: 50%;
+    animation: spin-left 4s linear infinite;
+    -webkit-animation: spin-left 4s linear infinite;
+}
+
+#mars-label{
+    bottom: 343px;
+}
+
+
+
+
+
+
+
+
+/*==================== EARTH ====================*/
+
+#earth {
+    width: 50px;
+    height: 50px;
+    margin: 36px;
+    z-index: 1000;
+    animation: spin-right 3s linear infinite;
+    -webkit-animation: spin-right 3s linear infinite;
+}
+
+#earth-orbit {
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    bottom: -115px;
+    left: 50%;
+    margin-left: -205px;
+    border: 1px dotted white;
+    border-radius: 50%;
+    animation: spin-left 5s linear infinite;
+    -webkit-animation: spin-left 5s linear infinite;
+}
+
+#earth-label{
+    bottom: 294px;
+}
+
+
+
+
+
+
+/*==================== VENUS ====================*/
+
+#venus {
+    width: 50px;
+    height: 50px;
+    margin: 16px;
+    z-index: 1000;
+}
+
+#venus-orbit {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: -60px;
+    left: 50%;
+    margin-left: -150px;
+    border: 1px dotted white;
+    border-radius: 50%;
+    animation: spin-left 4s linear infinite;
+    -webkit-animation: spin-left 4s linear infinite;
+}
+
+#venus-label{
+    bottom: 239px;
+}
+
+
+
+
+
+
+
+/*==================== MERCURY ====================*/
+
+#mercury {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    z-index: 1000;
+}
+
+
+#mercury-orbit {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -100px;
+    border: 1px dotted white;
+    border-radius: 50%;
+    animation: spin-left 2s linear infinite;
+    -webkit-animation: spin-left 2s linear infinite;
+}
+
+#mercury-label{
+    bottom: 189px;
+}
+
+

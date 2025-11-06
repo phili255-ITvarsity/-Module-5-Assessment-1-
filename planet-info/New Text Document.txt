@@ -1,0 +1,2 @@
+animation: spin-left 14s linear infinite;
+    -webkit-animation:spin-left 14s linear infinite;
